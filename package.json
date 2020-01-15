@@ -32,5 +32,5 @@
 		"flow": "flow",
 		"deploy": "yarn run build&&gh-pages -d build"
 	},
-	"homepage": "https://holdersimone.github.io/gifSearchApp"
+	"homepage": " "
 }

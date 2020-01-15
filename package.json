@@ -32,5 +32,5 @@
 		"flow": "flow",
 		"deploy": "yarn run build&&gh-pages -d build"
 	},
-	"homepage": " "
+	"homepage": "https://riby-test.netlify.com/"
 }

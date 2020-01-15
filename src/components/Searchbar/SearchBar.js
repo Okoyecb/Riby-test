@@ -16,12 +16,12 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div className="search">
-            <form className="form-group">
-            <input class="form-control form-control-lg" 
-                placeholder="Search all Gif's"
-                onChange={event => this.onInputChange(event.target.value)}
-            />
-            </form> 
+             <form className="form-inline">
+                <div className="form-group mx-sm-3 mb-2">
+                    <input class="form-control form-control-lg" placeholder="Search all Gif's" onChange={event => this.onInputChange(event.target.value)} />
+                </div>
+                 <button type="submit" className="btn btn-success mb-2">Search</button>
+            </form>
         </div>
         )
     }
